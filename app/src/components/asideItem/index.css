@@ -1,0 +1,17 @@
+.aside__item {
+  cursor: pointer;
+  display: flex;
+  color: #85a5c5;
+  margin: 5rem 2rem;
+}
+
+.aside__img {
+  margin-right: 1rem;
+}
+
+@media screen and (max-width: 784px) {
+  .aside__item {
+    margin: 0rem;
+    padding: 2rem;
+  }
+}
